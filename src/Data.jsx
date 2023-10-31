@@ -5,4 +5,4 @@ const ucell = [
 ]
 
 
-export  default {ucell}
+export  default  ucell
