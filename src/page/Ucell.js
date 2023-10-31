@@ -1,11 +1,11 @@
 import React from 'react'
-import ucell from "../Data"
+// import ucell from "../Data"
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SmsIcon from '@mui/icons-material/Sms';
 import SimCardIcon from '@mui/icons-material/SimCard';
 import LanguageIcon from '@mui/icons-material/Language';
-import Uzmobilee from './Uzmobilee';
+// import Uzmobilee from './Uzmobilee';
 export default function Ucell() {
 
 
