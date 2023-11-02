@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
-import Ucell from '../page/Ucell'
+import Menu from './Menu'
 import Belline from '../page/Belline'
 import Mobiuz from '../page/Mobiuz'
 import Uzmobilee from '../page/Uzmobilee'
-import Internet from '../page/Internet'
+import SingleRoute from '../page/single-route/SingleRoute'
+import Internet from '../page/internet/Internet'
 
 export default function Main() {
     return (
@@ -14,13 +15,9 @@ export default function Main() {
             <div className="gapes">
 
                 <Routes>
-                    <Route  path='ucell' element={<Ucell />} />
-                    <Route path='belline' element={<Belline />} />
-                    <Route path='mobiuz' element={<Mobiuz />} />
-                    <Route path='uzmobile' element={<Uzmobilee />} />
-                    <Route path='ucell/internet' element={  <Internet/>  } />
-
-
+                    <Route  path='/' element={<h2>Home</h2>} />
+                    <Route path='/single/:path' element={<SingleRoute />} />
+                    <Route path='/internet/:id' element={  <Internet/>  } />
                 </Routes>
 
             </div>
