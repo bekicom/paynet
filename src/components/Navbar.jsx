@@ -1,11 +1,15 @@
 import React from 'react'
-import { useNavigate, NavLink } from 'react-router-dom'
-export default function Navbar() {
+import { NavLink } from 'react-router-dom'
+import {DATA} from "../static"
 
-    const navigate = useNavigate()
+export default function Navbar() {
     return (
         <nav>
-            <NavLink to={"/"} id='uc' >Ucell</NavLink>
+            {
+                DATA?.map(i=> <NavLink className={"nav__link"} to={`/single/${i.path}`} key={i.id}>
+                    <button id={i.path.slice(0,2)}>{i.title}</button>
+                </NavLink>)
+            }
         </nav>
     )
 }
