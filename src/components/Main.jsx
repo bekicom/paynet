@@ -14,11 +14,9 @@ export default function Main() {
             <div className="gapes">
 
                 <Routes>
-                    <Route  path='ucell' element={<Ucell />} />
-                    <Route path='belline' element={<Belline />} />
-                    <Route path='mobiuz' element={<Mobiuz />} />
-                    <Route path='uzmobile' element={<Uzmobilee />} />
-                    <Route path='ucell/internet' element={  <Internet/>  } />
+                    <Route path='/' element={<h2>HOME</h2>} />
+                    <Route path='/:route' element={<Ucell />} />
+                    <Route path='ucell/:internet' element={<Internet />} />
 
 
                 </Routes>
