@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { INTERNETS } from "../../static";
+import PhoneIcon from '@mui/icons-material/Phone';
 
 function Internet() {
   const params = useParams();
@@ -20,7 +21,7 @@ function Internet() {
             <td>{i.title}</td>
             <td>{i.price}</td>
             <td>{i.usd}</td>
-            <td><a href="tel:*100#">sorov</a></td>
+            <td><a href="tel:*100#"><PhoneIcon /></a></td>
           </tr>
         ))}
       </table>

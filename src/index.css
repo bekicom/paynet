@@ -12,7 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+*{
+  text-decoration: none;
+}
 
 #root{
   max-width: 455px;
@@ -100,6 +102,7 @@ nav  button{
   display: flex;
   align-items: center;
   justify-content: start;
+  padding-left: 15px;
   gap: 5px;
   font-size: 15px;
 
@@ -132,3 +135,5 @@ th{
 td{
   text-align: center;
 }
+
+
