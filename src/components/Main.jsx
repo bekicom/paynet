@@ -1,10 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
-import Menu from './Menu'
-import Belline from '../page/Belline'
-import Mobiuz from '../page/Mobiuz'
-import Uzmobilee from '../page/Uzmobilee'
+
 import SingleRoute from '../page/single-route/SingleRoute'
 import Internet from '../page/internet/Internet'
 
