@@ -293,6 +293,20 @@ export const INTERNETS = [
     ],
   },
 ];
-export const SMS = [
-
-]
+export const Tarif = [
+  {
+    id: "internet-1",
+    depId: "provider-1",
+    items: [
+      {
+        title: "Doimiy 25",
+        internet: "6 GB ",
+        ishtiomoiy: "Facebook va Instagram",
+        qonggiroqlar:"Cheksiz",
+        smspaket:"500 sms",
+        narxi:25000,
+        usd:"*120#"
+      },
+    ],
+  },
+];

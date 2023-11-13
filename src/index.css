@@ -124,13 +124,16 @@ h1{
 
 table{
   width: 100%;
+  overflow: scroll;
   
 
 }
 
+
 th{
-  width: 100%;
+  width: 50%;
 }
+
 
 
 
