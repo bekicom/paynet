@@ -145,6 +145,7 @@ export const INTERNETS = [
         title: "3000mb",
         price: 20000,
         usd: "*1*2*6050#",
+      
       },
       {
         title: "6000mb",
@@ -197,6 +198,7 @@ export const INTERNETS = [
         price: 11000,
         usd: "*171*019*2*011000308*1#",
       },
+      
       {
         title: "2000mb",
         price: 17000,
@@ -291,3 +293,6 @@ export const INTERNETS = [
     ],
   },
 ];
+export const SMS = [
+
+]
