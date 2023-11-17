@@ -21,7 +21,9 @@ function Internet() {
             <td>{i.title}</td>
             <td>{i.price}</td>
             <td>{i.usd}</td>
-            <td><a href="tel:*100#"><PhoneIcon /></a></td>
+            <td>  <a href={`tel:${i.usd}`}>
+              <PhoneIcon />
+            </a></td>
           </tr>
         ))}
       </table>
